@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 import { Link } from "react-router-dom";
+import logo from '../assets/siteLogo.png'
 
 const Navbar = () => {
 
@@ -12,16 +13,18 @@ const Navbar = () => {
 
 
       <div className='bg-slate-500 h-[100px]  mx-auto flex justify-between items-center'>
-    <div className="relative">
+
+      <div className="relative">
       
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="p-2 flex flex-col space-y-1 z-50"
-      >
-        <span className="w-6 h-0.5 bg-black"></span>
-        <span className="w-6 h-0.5 bg-black"></span>
-        <span className="w-6 h-0.5 bg-black"></span>
-      </button>
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="p-2 flex flex-col space-y-1 z-50"
+        >
+          <span className="w-6 h-0.5 bg-black"></span>
+          <span className="w-6 h-0.5 bg-black"></span>
+          <span className="w-6 h-0.5 bg-black"></span>
+
+        </button>
 
    
       {isOpen && (
@@ -50,7 +53,12 @@ const Navbar = () => {
         </div>
       )}
     </div>
+    
+    <div className='col-span-1 mt-24 mx-auto w-[300px] h-auto '>
 
+   
+    <img src={logo} alt="site logo"></img>
+</div>
     </div>
   
         
