@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
-import { Link } from "react-router-dom";
-import logo from '../assets/siteLogo.png'
+// import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
+// import { Link } from "react-router-dom";
+
+
 
 const Navbar = () => {
 
@@ -12,7 +13,7 @@ const Navbar = () => {
   return (
 
 
-    <div className='bg-slate-500 h-[100px]  mx-auto flex justify-between items-center'>
+    <div className=' h-[100px]  mx-auto flex justify-between items-center'>
 
       <div className="relative">
 
@@ -61,10 +62,10 @@ const Navbar = () => {
         )}
       </div>
 
-      <div className='col-span-1 mt-24 mx-auto w-[300px] h-auto '>
+      <div className=' h-[100px]  mx-auto flex justify-between items-center  '>
 
-
-        <img src={logo} alt="site logo"></img>
+        <h1 className="text-4xl  text-center">Yzy Archve</h1>
+        {/* <img src={logo} alt="site logo"></img> */}
       </div>
     </div>
 
@@ -76,7 +77,7 @@ export default Navbar;
 
 
 
-<script
+{/* <script
   type="module"
   src="node_modules/@material-tailwind/html@latest/scripts/popover.js"
-></script>
+></script> */}
