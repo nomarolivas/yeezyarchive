@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        custom: ['VCR', 'monospace'],
+        custom: ['VCR_OSD_MONO_1.001', 'monospace'],
       }
     },
   },

@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
 
 
-    <div className=' h-[100px]  mx-auto flex justify-between items-center'>
+    <div className=' font-custom h-[100px]  mx-auto flex justify-between items-center'>
 
       <div className="relative">
 
