@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// import './index.css';
 // import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 // import { Link } from "react-router-dom";
 
@@ -64,7 +65,7 @@ const Navbar = () => {
 
       <div className=' h-[100px]  mx-auto flex justify-between items-center  '>
 
-        <h1 className="text-4xl  text-center">Yzy Archve</h1>
+        <h1 className="text-4xl  text-center">Yzy Archive</h1>
         {/* <img src={logo} alt="site logo"></img> */}
       </div>
     </div>
